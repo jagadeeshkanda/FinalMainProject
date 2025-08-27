@@ -1,0 +1,7 @@
+Pratice\FinalMainProject\AppTest.class
+RunnerFile\TestRunnerfile.class
+RunnerFile\FailedTestRunner.class
+HopePage\steps\JobSeekerRegistration.class
+HopePage\steps\HomepageStepDef.class
+utilities\BaseTest.class
+utilities\Hooks.class
