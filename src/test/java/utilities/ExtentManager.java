@@ -10,7 +10,7 @@ public class ExtentManager {
 
 	 public static ExtentReports getInstance() {
 	        if (extent == null) {
-	            ExtentSparkReporter spark = new ExtentSparkReporter("test-output/ExtentReport.html");
+	            ExtentSparkReporter spark = new ExtentSparkReporter("Reports/ExtentReport.html");
 	            spark.config().setTheme(Theme.DARK);
 	            spark.config().setDocumentTitle("Automation Report");
 	            spark.config().setReportName("FinalMainProject Test Results");
