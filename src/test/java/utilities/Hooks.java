@@ -55,8 +55,8 @@ public class Hooks extends BaseTest {
         } else {
             extentTest.pass("Scenario passed");
         }
-
         extent.flush();
+
 
         if (getDriver() != null) {
             getDriver().quit();
