@@ -1,6 +1,6 @@
 @HomePage
 Feature: TechFynder HomePage
-	@HomePage
+	
   Scenario Outline: Opening Home page
       Given User launch the "<currentBrowser>" browser
   		When User enters techFynder URL for specified environment
@@ -9,7 +9,7 @@ Feature: TechFynder HomePage
       | currentBrowser | emailID                                | password |
       | CHROME         | automationtesting1@mail.techfynder.com | Test@123 |
   		
-  @HomePage		
+  		
    Scenario Outline: Checking TalentFynder option
       Given User launch the "<currentBrowser>" browser
   		When User enters techFynder URL for specified environment
@@ -44,7 +44,7 @@ Feature: TechFynder HomePage
       | CHROME         | automationtesting1@mail.techfynder.com | Test@123 |
       
       
-      
+      @Homepageone
        Scenario Outline: Checking SkillFynder option
       Given User launch the "<currentBrowser>" browser
       When User enters techFynder URL for specified environment
