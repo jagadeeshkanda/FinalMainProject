@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: Pratice.FinalMainProject.AppTest
+Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 s -- in Pratice.FinalMainProject.AppTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.19 s -- in TestSuite

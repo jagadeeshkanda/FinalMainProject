@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(features = "src/test/resources/com/project/auto/Features", 
 glue = { "HopePage.steps","utilities"}, 
-tags = "@HomePageOne or @HomePage",
+tags = " @HomePage",
 plugin = { "pretty", 
 		 "html:target/cucumber-reports/cucumber-pretty.html", 
 		 "json:target/cucumber-reports/CucumberTestReport.json",

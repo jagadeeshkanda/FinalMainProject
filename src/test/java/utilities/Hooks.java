@@ -65,6 +65,7 @@ public class Hooks extends BaseTest {
 
     @AfterSuite
     public void killProcess() {
+    	
         new seleniumToolsFactory().killBrowserInstance();
     }
 }
