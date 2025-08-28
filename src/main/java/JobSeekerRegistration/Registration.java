@@ -23,7 +23,8 @@ public class Registration extends SeleniumBase {
 			By ForJobSeeker = By.xpath("//button//span[contains(text(),'For Jobseeker')]");
 			By Register = By.xpath("(//a//span[@class='mat-button-wrapper'])[2]");	
 			By UploadCV = By.xpath("//button[@class='upload_cvnow']");
-		}
+			By FirstName = By.xpath("//input[@name='firstName']");	
+			}
 		
 		public void ClickJobFynder() {
 			clickButton(this.elements.JobFynder);
@@ -69,5 +70,11 @@ public class Registration extends SeleniumBase {
 			}
 			return false;
 		}
+		
+		public void sendvalueFirstName() {
+			sendValuesToWebElement(this.elements.FirstName,"Jagadeesh");
+		}
+		
+		
 	
 }
