@@ -48,7 +48,12 @@ public class JobSeekerRegistration extends BaseTest {
 	    @Then("Enter the first Key")
 	    public void sendvalueFirstName() {
 	    	 home =new Registration(getDriver());
-
+			 home.sendvalueFirstName();
+		}
+	    
+	    @Then("Enter the Last Key")
+	    public void sendvalueLastName() {
+	    	 home =new Registration(getDriver());
 			 home.sendvalueFirstName();
 		}
 }
