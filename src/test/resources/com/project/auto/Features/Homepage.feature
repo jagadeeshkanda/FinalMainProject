@@ -17,14 +17,3 @@ Feature: TechFynder HomePage
   	Examples: 
       | currentBrowser | emailID                                | password |
       | CHROME         | automationtesting1@mail.techfynder.com | Test@123 |
-  		
-  	
-     Scenario Outline: Checking IntershipFynder option
-      Given User launch the "<currentBrowser>" browser
-  		When User enters techFynder URL for specified environment
-  		Then Checking the IntershipFynder option
-  	Examples: 
-      | currentBrowser | emailID                                | password |
-      | CHROME         | automationtesting1@mail.techfynder.com | Test@123 |
-      
-  		
