@@ -21,7 +21,7 @@ pipeline {
         emailext (
             subject: "❌ PR Build Failed",
             body: "The PR build failed. Please check the logs.",
-            recipientProviders: [[$class: 'CulpritsRecipientProvider']]
+            to: "jagadeeshkanda@gmail.com"
         )
     }
 }
