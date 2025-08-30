@@ -21,7 +21,7 @@ pipeline {
         emailext (
             subject: "❌ PR Build Failed",
             body: "The PR build failed. Please check the logs.",
-            to: "jagadeeshk393@gmail.com"
+            to: "${env.CHANGE_AUTHOR_EMAIL}"
         )
     }
 }
