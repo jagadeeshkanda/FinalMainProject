@@ -20,7 +20,7 @@ public class Home extends SeleniumBase {
 	}
 		private static class Elements {
 			By JobFynder = By.xpath("//nav//a[@routerlink='/job-search']");
-			By Talentfynder = By.xpath("//nav//a[@routerlink='/talent-search']");
+			By Talentfynder = By.xpath("//nav//a[@routerlink='/talent-searche']");
 			By InternShipfynder = By.xpath("//nav//a[@routerlink='/internship-fynder']");
 			By Studyfynder = By.xpath("//nav//a[@routerlink='/study-fynder']");
 			By Skillfynder = By.xpath("//nav//a[@routerlink='/skillfynder-search']");
