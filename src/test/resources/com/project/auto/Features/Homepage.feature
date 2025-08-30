@@ -70,7 +70,7 @@ Feature: TechFynder HomePage
       Then the Register option should be visible
       And the user clicks on Register
       Then Enter the first Key
-	   Then Enter the Last Key
+	  
 
       
       
