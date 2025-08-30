@@ -56,6 +56,7 @@ Feature: TechFynder HomePage
       And the user clicks on Register
       Then Enter the first Key
       Then Enter the Last Key
+      Then Enter the Last Key
       
       
       
