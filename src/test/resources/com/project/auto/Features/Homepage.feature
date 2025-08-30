@@ -57,6 +57,7 @@ Feature: TechFynder HomePage
       Then Enter the first Key
       Then Enter the Last Key
       Then Enter the Last Key
+      Then Enter the Last Key
       
       
       
