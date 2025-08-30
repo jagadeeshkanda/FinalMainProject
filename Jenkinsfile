@@ -14,14 +14,14 @@ pipeline {
         emailext (
             subject: "✅ PR Build Passed",
             body: "The PR build passed successfully.",
-            recipientProviders: [[$class: 'DevelopersRecipientProvider']]
+            to: "jagadeeshkanda@gmail.com"
         )
     }
     failure {
         emailext (
             subject: "❌ PR Build Failed",
             body: "The PR build failed. Please check the logs.",
-            recipientProviders: [[$class: 'CulpritsRecipientProvider']]
+            to: "jagadeeshk393@gmail.com"
         )
     }
 }
