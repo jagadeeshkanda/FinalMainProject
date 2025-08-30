@@ -242,8 +242,13 @@ IFrameOperation<By>, IWebOperation<By, WebElement> {
 	}
 
 	@Override
-	public void sendValuesToWebElement(By t, String value) {
+	public void sendValuesToWebElement(By by, String value) {
 		// TODO Auto-generated method stub
+		try {
+			waitForElement(by).sendKeys(value);;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		
 	}
 

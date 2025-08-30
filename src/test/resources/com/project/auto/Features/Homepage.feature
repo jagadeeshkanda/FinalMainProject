@@ -54,6 +54,7 @@ Feature: TechFynder HomePage
       And the user clicks on JobSeeker
       Then the Register option should be visible
       And the user clicks on Register
+      Then Enter the first Key
       
       
       

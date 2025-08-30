@@ -44,5 +44,12 @@ public class JobSeekerRegistration extends BaseTest {
 
 			 home.ClickRegister();
 	    }
+	    
+	    @Then("Enter the first Key")
+	    public void sendvalueFirstName() {
+	    	 home =new Registration(getDriver());
+
+			 home.sendvalueFirstName();
+		}
 }
 
