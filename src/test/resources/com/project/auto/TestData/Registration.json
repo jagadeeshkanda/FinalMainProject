@@ -2,7 +2,10 @@
 	{
 	"Firstname":"Jagadeesh",
 	"LastName": "Kanda",
-		"LastName": "Kanda"
+		"Name": "Kanda",
+		"Fname":"Jagadeesh",
+	"LaName": "Kanda",
+		"LasName": "Kanda"
 }
 
 ]
