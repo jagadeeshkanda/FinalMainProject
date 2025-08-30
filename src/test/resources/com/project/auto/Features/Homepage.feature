@@ -56,25 +56,7 @@ Feature: TechFynder HomePage
       And the user clicks on Register
       Then Enter the first Key
       Then Enter the Last Key
-     
-      
-      
-           @Homepageone
-       Scenario Outline: Checking SkillFynder 
-      Given User launch the "<currentBrowser>" browser
-      When User enters techFynder URL for specified environment
-      Then Checking the Jobseeker option
-      Given the user clicks on JobFynder
-      Then the for JobSeeker option should be visible
-      And the user clicks on JobSeeker
-      Then the Register option should be visible
-      And the user clicks on Register
-      Then Enter the first Key
-	  
 
-      
-      
-      
         	Examples: 
       | currentBrowser | emailID                                | password |
       | chrome         | automationtesting1@mail.techfynder.com | Test@123 |
